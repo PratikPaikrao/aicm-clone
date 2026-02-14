@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -7,10 +6,20 @@
 
 body {
   font-family: sans-serif;
+  position: relative;
 }
 
 a {
   text-decoration: none;
+}
+
+.hero-bg-video {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  z-index: -999;
 }
 
 header {
@@ -47,7 +56,6 @@ nav a:hover {
   font-weight: bold;
   color: #030930;
   transition: all 0.2s ease-in-out;
-  border: 1px solid red;
 }
 
 .visit-store:hover {
@@ -80,4 +88,102 @@ nav a:hover {
   background-color: aqua;
   display: none;
   top: 18px;
+}
+
+/* hero secrtion */
+
+main {
+  height: 76vh;
+  padding: 0 6vw;
+  box-shadow: inset 0px -120px 30px -60px white;
+}
+
+main h1 {
+  padding-top: 80px;
+  font-size: 48px;
+  color: #030930;
+}
+
+main p {
+  padding-top: 10px;
+  opacity: 0.7;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+.search-container div {
+  background-color: #030930;
+  padding: 16px;
+  border-radius: 40px;
+  color: #bababa;
+}
+
+.search-container input {
+  background-color: #030930;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.search-container input::placeholder {
+  font-weight: bold;
+  color: #bababa;
+}
+
+/* category section */
+
+.category-section {
+  text-align: center;
+  height: 100vh;
+  margin: 40px 0;
+}
+
+.category-section h2 {
+  font-size: 40px;
+  color: #030930;
+  padding-bottom: 20px;
+}
+
+.category-section p {
+  color: #bababa;
+}
+
+.categories-container {
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.category-card {
+  width: 30%;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  box-shadow: inset 0px -150px 50px 0px white;
+}
+
+.category-card p {
+  font-size: 28px;
+  color: #030930;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.category-card a {
+  color: white;
+  background-color: #030930;
+  padding: 12px 30px;
+  border-radius: 8px;
+  width: max-content;
+}
+
+.category-card video {
+  width: 100%;
+  z-index: -99;
 }
