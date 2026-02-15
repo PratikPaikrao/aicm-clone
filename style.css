@@ -187,3 +187,293 @@ main p {
   width: 100%;
   z-index: -99;
 }
+
+
+/* List Section */
+
+
+.list-section{
+  text-align: center;
+  margin-top: 120px;
+  font-size: 50px;
+  color: #030930;
+  
+}
+
+.list-container{
+  display: flex;
+  margin-top: 40px;
+  padding: 0 6vw;
+  gap: 20px;
+  color: #030930;
+ 
+ 
+  
+  
+}
+.child{
+  width:300px;
+  height: 180px;
+  border: 3px solid rgb(213, 236, 255); 
+  border-radius: 13px;
+  background-color: rgb(234, 241, 247);
+
+  
+}
+
+
+.list-container img{
+  width:50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.list-container p{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.list-container h1{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+
+.box-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+  
+}
+.box{
+  width: 80px;
+  height: 80px;
+  border: 3px solid rgb(213, 236, 255);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box:hover{
+  background-color:rgb(213, 236, 255) ;
+}
+
+
+/* VIDEO   */
+.abc{
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;   
+  margin-bottom: 20px;
+}
+
+.vdo-box{
+  position: relative;     
+  width: 350px;
+  height: 130px;
+  border: 3px solid rgb(234, 234, 234);
+  border-radius: 100px;
+  overflow: hidden;         
+}
+
+
+.vdo-box video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* fills the box */
+}
+
+
+
+/* What is AICM  */
+.aicm-container{
+  padding: 0 6vw;
+  text-align: center;
+  margin-bottom: 150px;
+  
+}
+
+.aicm-container h1{
+  color: #030930;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.aicm-container p{
+  color: rgb(108, 108, 109);;
+  font-size: 18px;
+  line-height: 1.43em;
+}
+
+.box-whitepaper{
+  display: flex;  
+  justify-content: center;
+  margin-top: 15px;
+  
+}
+.box1{
+  width:180px;
+  height: 60px;
+  border: 2px solid rgb(199, 227, 251);
+  border-radius: 12px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 500px;
+
+  
+}
+.box1 p{
+  padding: 20px;
+  color: rgb(6, 10, 37);;
+  font-size: 18px;
+}
+
+.box-audits{
+  padding: 0 6vw;
+}
+
+.box2{
+  width: 100%;
+  height: 60vh;
+background-color: rgb(245, 245, 245);
+  padding-left: 30px;
+  display: flex;
+  gap: 250px;
+}
+.box2 h1{
+  font-size: 60px;
+  color: #030930;
+  padding-top: 50px;
+  margin-bottom: 120px;
+  
+}
+.box2 h3{
+  color: rgb(53, 51, 51);
+}
+
+.auditlogo{
+  width: 300px;
+}
+.kyc{
+  width: 150px;
+}
+
+/* Copy Container */
+.copy-container{
+  padding:0 6vw;
+  margin-top: 180px;
+ 
+  
+}
+
+.copy-box{
+  padding: 0 5px;
+  height: 40px;
+  width: 180px;
+  border: 3px solid rgb(248, 243, 243);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+
+}
+
+/* Token Container */
+.token-container{
+  display: flex;
+  padding: 0 6vw;
+  margin-top: 20px;
+  gap: 120px;
+}
+
+.token-container h1{
+  font-size: 60px;
+  margin-bottom: 20px;
+  
+}
+
+.token-container h3{
+  color: #6d6d6d;
+}
+
+.box-parent{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 1fr));
+  gap: 16px;
+  max-width: 520px; 
+ 
+}
+.token-box{
+ height: 64px;              
+  background: #f5f9ff;
+  border: 2px solid #cfe2ff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+
+}
+.token2{
+  width: 150px;
+}
+
+.roadmap-container{
+  text-align: center;
+  margin-top: 140px;
+  
+}
+
+.roadmap-container h1{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.roadmap-container h3{
+  color: #757577;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.roadmap-box{
+  display: flex;
+  justify-content: center;
+  padding: 0 6vw;
+  gap: 20px;
+}
+
+.roadmap-box p{
+  border: 3px solid rgb(227, 230, 234);
+  background-color: rgb(227, 230, 234);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.eco-container{
+   padding: 0 6vw;
+  display: flex; 
+  margin-top: 140px; 
+  justify-content: space-between;
+ } 
+ .eco-container h1{ 
+  font-size: 45px; 
+} 
+.eco-container p{ 
+  font-size: 20px; 
+  color: #7a7a7d;
+} 
+.q2{ 
+  margin-top: 100px; 
+}
+.q3{ 
+  margin-top: 55px; 
+  
+}
+.q4{
+color: #7a7a7d;
+}
+
