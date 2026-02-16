@@ -81,13 +81,21 @@ nav a:hover {
 
 .knowledge-base-container {
   position: absolute;
-  height: 200px;
+  height: 170px;
   width: 200px;
-  border: 2px solid blueviolet;
+  border: 2px solid #cfe2ff;
   border-radius: 8px;
-  background-color: aqua;
+  background-color: white;
   display: none;
   top: 18px;
+}
+
+.knowledge-base-container p{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  color: #030930;
+  line-height: 40px;
 }
 
 /* hero secrtion */
@@ -206,17 +214,14 @@ main p {
   padding: 0 6vw;
   gap: 20px;
   color: #030930;
- 
- 
-  
-  
+
 }
 .child{
   width:300px;
   height: 180px;
   border: 3px solid rgb(213, 236, 255); 
   border-radius: 13px;
-  background-color: rgb(234, 241, 247);
+  background-color: rgb(245, 246, 247);
 
   
 }
@@ -322,8 +327,6 @@ main p {
   border-radius: 12px;
   display: flex;
   margin-top: 20px;
-  margin-left: 500px;
-
   
 }
 .box1 p{
@@ -476,4 +479,78 @@ background-color: rgb(245, 245, 245);
 .q4{
 color: #7a7a7d;
 }
+
+
+
+.q2box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 60px;
+  padding: 30px;
+  margin-top: 100px;
+  
+}
+.lbox{
+  background: #f1f8fd;
+  height: 65px;
+  border-radius: 12px;
+  border: 3px solid #c7e3fb;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.col1{
+  margin-top: 80px;
+}
+
+.col2{
+  margin-top: 50px;
+}
+
+.l1, .l2{
+  display: flex;
+  padding: 10px;
+  width: 300px;
+  gap: 10px;
+}
+.l3{
+  display: flex;
+  padding: 10px;
+}
+.l4{
+  width: 350px;
+  display: flex;
+  padding: 10px;
+}
+
+.l5,.l6,.l7{
+  height: 80px;
+}
+.l8{
+  width: 300px;
+}
+.l9{
+  height: 90px;
+}
+.l10{
+  width: 300px;
+  height: 140px;
+}
+
+.l11,.l12,.l14,.l15,.l16,.l17,.l18{
+  height: 90px;
+}
+.l13{
+  height: 110px;
+}
+
+.l1 p{
+  gap: 10px;
+  padding: 10px;
+  color: #191919;
+}
+
 
